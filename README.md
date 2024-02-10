@@ -1,4 +1,7 @@
-# AES256-ENCODE-AND-DECODE
+# AES256-ENCODER-AND-DECODER APP
+
+
+
 
 EN: 
 This Python application provides an advanced interface for performing file encryption and decryption operations. With a graphical user interface (GUI) created using the Tkinter library, users can easily execute tasks such as selecting files, choosing encryption modes, and generating keys and initialization vectors.
