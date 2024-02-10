@@ -1,7 +1,21 @@
 # AES256-ENCODE-AND-DECODE
 
 EN: 
+This Python application provides an advanced interface for performing file encryption and decryption operations. With a graphical user interface (GUI) created using the Tkinter library, users can easily execute tasks such as selecting files, choosing encryption modes, and generating keys and initialization vectors.
 
+The main features of the application include:
+
+Advanced Interface: The GUI, created using the Tkinter library, enables users to effortlessly carry out operations. It consists of components such as a file selection button, encryption mode selector, and a button for generating keys and initialization vectors.
+
+Strong Encryption: File encryption and decryption operations are performed using the AES (Advanced Encryption Standard) algorithm. AES is widely recognized as an industry-standard encryption algorithm, ensuring the security of sensitive data.
+
+Flexible Encryption Modes: The application supports various encryption modes, including ECB (Electronic Codebook), CBC (Cipher Block Chaining), CTR (Counter), and CFB (Cipher Feedback). Each mode offers different security levels and usage scenarios, allowing users to choose the mode that suits their needs.
+
+Multi-Threading Support: Encryption and decryption operations are executed using multiple threads. This ensures that lengthy processes occur in the background, preventing the user interface from freezing and allowing users to carry out other tasks.
+
+Multi-Language Support: The user interface can be presented in different languages, such as English, Turkish, and Russian. Users can better understand and use the application by selecting their preferred language.
+
+To use this application, familiarity with the Python language and basic cryptography concepts is necessary. Additionally, libraries such as Tkinter, Crypto (pycryptodome), and threading must be installed. This application is an ideal solution for users who need to securely encrypt and store sensitive data.
 
 TR:Bu Python uygulaması, dosya şifreleme ve çözme işlemlerini gerçekleştirmek için geliştirilmiş bir arayüz sunar. Tkinter kütüphanesi kullanılarak oluşturulan grafiksel kullanıcı arayüzü (GUI) sayesinde, kullanıcılar dosya seçme, şifreleme modu seçme, anahtar ve başlatma vektörü oluşturma gibi işlemleri basit bir şekilde gerçekleştirebilirler.
 
